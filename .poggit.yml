@@ -1,6 +1,21 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/gamegam/WorldHelp-
-build-by-default: false
+build-by-default: true
+branches:
+- WorldHelp-
+Commit default .poggit.yml to the repo
+After Poggit-CI is enabled for this repo, a manifest file will be created at: 
+.poggit.yml
+
+Attribute information for .poggit.yml can be found at: poggit/support
+
+Content of the manifest:
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/gamegam/WorldHelp-
+build-by-default: true
 branches:
 - main
+projects: []
+...
+
+
 projects: []
 ...
