@@ -1,0 +1,9 @@
+name: WorldEditUP
+main: WorldEditUP\WorldEditUP\Main
+author: gamegam
+version: 0.1
+api: 5.0.0
+
+permissions:
+  up.cmd:
+    default: op
