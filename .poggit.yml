@@ -1,8 +1,15 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/gamegam/Warp
 build-by-default: true
 branches:
-- WorldEditUP
+  - master
+
 projects:
-  WorldEditUP:
+  MyPlugin:
     path: ""
+    libs:
+      - name: WorldHelp-
+        version: 0.1
+    virions:
+      - name: PocketMine-MP
+        version: "^5.0.0"
 ...
